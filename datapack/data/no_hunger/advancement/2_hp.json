@@ -1,0 +1,101 @@
+{
+  "criteria": {
+    "cookie": {
+      "conditions": {
+        "item": {
+          "items": "minecraft:cookie"
+        }
+      },
+      "trigger": "minecraft:consume_item"
+    },
+    "glow_berries": {
+      "conditions": {
+        "item": {
+          "items": "minecraft:glow_berries"
+        }
+      },
+      "trigger": "minecraft:consume_item"
+    },
+    "melon_slice": {
+      "conditions": {
+        "item": {
+          "items": "minecraft:melon_slice"
+        }
+      },
+      "trigger": "minecraft:consume_item"
+    },
+    "poisonous_potato": {
+      "conditions": {
+        "item": {
+          "items": "minecraft:poisonous_potato"
+        }
+      },
+      "trigger": "minecraft:consume_item"
+    },
+    "raw_chicken": {
+      "conditions": {
+        "item": {
+          "items": "minecraft:raw_chicken"
+        }
+      },
+      "trigger": "minecraft:consume_item"
+    },
+    "raw_cod": {
+      "conditions": {
+        "item": {
+          "items": "minecraft:raw_cod"
+        }
+      },
+      "trigger": "minecraft:consume_item"
+    },
+    "raw_mutton": {
+      "conditions": {
+        "item": {
+          "items": "minecraft:raw_mutton"
+        }
+      },
+      "trigger": "minecraft:consume_item"
+    },
+    "raw_salmon": {
+      "conditions": {
+        "item": {
+          "items": "minecraft:raw_salmon"
+        }
+      },
+      "trigger": "minecraft:consume_item"
+    },
+    "spider_eye": {
+      "conditions": {
+        "item": {
+          "items": "minecraft:spider_eye"
+        }
+      },
+      "trigger": "minecraft:consume_item"
+    },
+    "sweet_berries": {
+      "conditions": {
+        "item": {
+          "items": "minecraft:sweet_berries"
+        }
+      },
+      "trigger": "minecraft:consume_item"
+    }
+  },
+  "requirements": [
+    [
+      "cookie",
+      "glow_berries",
+      "melon_slice",
+      "poisonous_potato",
+      "raw_chicken",
+      "raw_cod",
+      "raw_mutton",
+      "raw_salmon",
+      "spider_eye",
+      "sweet_berries"
+    ]
+  ],
+  "rewards": {
+    "function": "no_hunger:heal/2_hp"
+  }
+}
