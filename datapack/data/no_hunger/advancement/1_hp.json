@@ -1,0 +1,56 @@
+{
+  "criteria": {
+    "beetroot": {
+      "conditions": {
+        "item": {
+          "items": "minecraft:beetroot"
+        }
+      },
+      "trigger": "minecraft:consume_item"
+    },
+    "dried_kelp": {
+      "conditions": {
+        "item": {
+          "items": "minecraft:dried_kelp"
+        }
+      },
+      "trigger": "minecraft:consume_item"
+    },
+    "potato": {
+      "conditions": {
+        "item": {
+          "items": "minecraft:potato"
+        }
+      },
+      "trigger": "minecraft:consume_item"
+    },
+    "pufferfish": {
+      "conditions": {
+        "item": {
+          "items": "minecraft:pufferfish"
+        }
+      },
+      "trigger": "minecraft:consume_item"
+    },
+    "tropical_fish": {
+      "conditions": {
+        "item": {
+          "items": "minecraft:tropical_fish"
+        }
+      },
+      "trigger": "minecraft:consume_item"
+    }
+  },
+  "requirements": [
+    [
+      "beetroot",
+      "dried_kelp",
+      "potato",
+      "pufferfish",
+      "tropical_fish"
+    ]
+  ],
+  "rewards": {
+    "function": "no_hunger:heal/1_hp"
+  }
+}
