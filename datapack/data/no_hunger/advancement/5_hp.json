@@ -1,0 +1,47 @@
+{
+  "criteria": {
+    "baked_potato": {
+      "conditions": {
+        "item": {
+          "items": "minecraft:baked_potato"
+        }
+      },
+      "trigger": "minecraft:consume_item"
+    },
+    "bread": {
+      "conditions": {
+        "item": {
+          "items": "minecraft:bread"
+        }
+      },
+      "trigger": "minecraft:consume_item"
+    },
+    "cooked_cod": {
+      "conditions": {
+        "item": {
+          "items": "minecraft:cooked_cod"
+        }
+      },
+      "trigger": "minecraft:consume_item"
+    },
+    "cooked_rabbit": {
+      "conditions": {
+        "item": {
+          "items": "minecraft:cooked_rabbit"
+        }
+      },
+      "trigger": "minecraft:consume_item"
+    }
+  },
+  "requirements": [
+    [
+      "baked_potato",
+      "bread",
+      "cooked_cod",
+      "cooked_rabbit"
+    ]
+  ],
+  "rewards": {
+    "function": "no_hunger:heal/5_hp"
+  }
+}
