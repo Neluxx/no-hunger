@@ -1,0 +1,47 @@
+{
+  "criteria": {
+    "carrot": {
+      "conditions": {
+        "item": {
+          "items": "minecraft:carrot"
+        }
+      },
+      "trigger": "minecraft:consume_item"
+    },
+    "raw_beef": {
+      "conditions": {
+        "item": {
+          "items": "minecraft:raw_beef"
+        }
+      },
+      "trigger": "minecraft:consume_item"
+    },
+    "raw_porkchop": {
+      "conditions": {
+        "item": {
+          "items": "minecraft:raw_porkchop"
+        }
+      },
+      "trigger": "minecraft:consume_item"
+    },
+    "raw_rabbit": {
+      "conditions": {
+        "item": {
+          "items": "minecraft:raw_rabbit"
+        }
+      },
+      "trigger": "minecraft:consume_item"
+    }
+  },
+  "requirements": [
+    [
+      "carrot",
+      "raw_beef",
+      "raw_porkchop",
+      "raw_rabbit"
+    ]
+  ],
+  "rewards": {
+    "function": "no_hunger:heal/3_hp"
+  }
+}
