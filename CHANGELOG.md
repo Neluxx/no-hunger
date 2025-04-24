@@ -8,9 +8,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 ### Added
+- Disable hunger mechanic
+- Add healing values to each food item
+- Direct health restoration from all vanilla food items
 
 ### Changed
 
 ### Removed
+- Remove hunger bar from GUI
 
 ### Fixed
