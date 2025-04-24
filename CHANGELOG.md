@@ -8,13 +8,19 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 ### Added
-- Disable hunger mechanic
-- Add healing values to each food item
-- Direct health restoration from all vanilla food items
 
 ### Changed
 
 ### Removed
-- Remove hunger bar from GUI
 
 ### Fixed
+
+## [v0.1.0](https://github.com/Neluxx/no-hunger/releases/tag/v0.1.0) - 2025-04-24
+
+### Added
+- Disable hunger mechanic
+- Add healing values to each food item
+- Direct health restoration from all vanilla food items
+
+### Removed
+- Remove hunger bar from GUI
