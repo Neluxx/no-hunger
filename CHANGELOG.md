@@ -8,10 +8,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 ### Added
+- Added backwards compatibility
 
 ### Changed
+- Use delayed scheduled function for damage handling
 
 ### Removed
+- Remove superfluous healing functions
 
 ### Fixed
 
