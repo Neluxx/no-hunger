@@ -1,0 +1,20 @@
+{
+  "criteria": {
+    "rabbit_stew": {
+      "conditions": {
+        "item": {
+          "items": "minecraft:rabbit_stew"
+        }
+      },
+      "trigger": "minecraft:consume_item"
+    }
+  },
+  "requirements": [
+    [
+      "rabbit_stew"
+    ]
+  ],
+  "rewards": {
+    "function": "no_hunger:heal/10_hp"
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "criteria": {
+    "beetroot_soup": {
+      "conditions": {
+        "item": {
+          "items": "minecraft:beetroot_soup"
+        }
+      },
+      "trigger": "minecraft:consume_item"
+    },
+    "cooked_chicken": {
+      "conditions": {
+        "item": {
+          "items": "minecraft:cooked_chicken"
+        }
+      },
+      "trigger": "minecraft:consume_item"
+    },
+    "cooked_mutton": {
+      "conditions": {
+        "item": {
+          "items": "minecraft:cooked_mutton"
+        }
+      },
+      "trigger": "minecraft:consume_item"
+    },
+    "cooked_salmon": {
+      "conditions": {
+        "item": {
+          "items": "minecraft:cooked_salmon"
+        }
+      },
+      "trigger": "minecraft:consume_item"
+    },
+    "golden_carrot": {
+      "conditions": {
+        "item": {
+          "items": "minecraft:golden_carrot"
+        }
+      },
+      "trigger": "minecraft:consume_item"
+    },
+    "honey_bottle": {
+      "conditions": {
+        "item": {
+          "items": "minecraft:honey_bottle"
+        }
+      },
+      "trigger": "minecraft:consume_item"
+    },
+    "mushroom_stew": {
+      "conditions": {
+        "item": {
+          "items": "minecraft:mushroom_stew"
+        }
+      },
+      "trigger": "minecraft:consume_item"
+    },
+    "suspicious_stew": {
+      "conditions": {
+        "item": {
+          "items": "minecraft:suspicious_stew"
+        }
+      },
+      "trigger": "minecraft:consume_item"
+    }
+  },
+  "requirements": [
+    [
+      "beetroot_soup",
+      "cooked_chicken",
+      "cooked_mutton",
+      "cooked_salmon",
+      "golden_carrot",
+      "honey_bottle",
+      "mushroom_stew",
+      "suspicious_stew"
+    ]
+  ],
+  "rewards": {
+    "function": "no_hunger:heal/6_hp"
+  }
+}

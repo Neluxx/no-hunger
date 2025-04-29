@@ -1,0 +1,56 @@
+{
+  "criteria": {
+    "apple": {
+      "conditions": {
+        "item": {
+          "items": "minecraft:apple"
+        }
+      },
+      "trigger": "minecraft:consume_item"
+    },
+    "chorus_fruit": {
+      "conditions": {
+        "item": {
+          "items": "minecraft:chorus_fruit"
+        }
+      },
+      "trigger": "minecraft:consume_item"
+    },
+    "enchanted_golden_apple": {
+      "conditions": {
+        "item": {
+          "items": "minecraft:enchanted_golden_apple"
+        }
+      },
+      "trigger": "minecraft:consume_item"
+    },
+    "golden_apple": {
+      "conditions": {
+        "item": {
+          "items": "minecraft:golden_apple"
+        }
+      },
+      "trigger": "minecraft:consume_item"
+    },
+    "rotten_flesh": {
+      "conditions": {
+        "item": {
+          "items": "minecraft:rotten_flesh"
+        }
+      },
+      "trigger": "minecraft:consume_item"
+    }
+  },
+  "requirements": [
+    [
+      "apple",
+      "chorus_fruit",
+      "enchanted_golden_apple",
+      "golden_apple",
+      "rotten_flesh"
+    ]
+  ],
+  "rewards": {
+    "function": "no_hunger:heal/4_hp"
+  }
+}
